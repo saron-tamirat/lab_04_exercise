@@ -8,8 +8,6 @@ function multiplication(){
     numbers.forEach(function(value) {
         
          multiple = multiple * parseInt(value);
-         
-         
      });
      return multiple;
      
