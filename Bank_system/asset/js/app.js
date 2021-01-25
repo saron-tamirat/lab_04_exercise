@@ -44,7 +44,7 @@ else if (choice == 3){
     var newBalance = prompt("Enter the amount of money you want to transfer. ");
      transfer(account,newBalance);
 }
-else{
+else if (choice == 4){
     balance();
 }
 
